@@ -1,0 +1,473 @@
+/* dafolt css with browser */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .main__div {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 4px;
+  }
+  header {
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+  }
+  
+  .FristChild {
+    padding: 5px;
+    margin-left: 20px;
+  }
+  .FristChild h2 {
+    cursor: pointer;
+  }
+  
+  .socendChild ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+  }
+  .socendChild ul li a {
+    padding: 12px 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .socendChild {
+    margin-left: 427px;
+  }
+  .threeChild {
+    margin-left: 450px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .threeChild a {
+    padding: 3px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    margin-left: 7px;
+  }
+  
+  .threeChild a:hover {
+    background-color: black;
+    color: white;
+  }
+  .threeChild a {
+    background-color: rgb(230, 218, 218);
+    border-radius: 30px;
+  }
+  .threeChild img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+  }
+  
+  /* Header stYle end */
+  
+  /* section style start */
+  body {
+    height: 481px;
+    background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+  }
+  .section_one {
+    width: 56%;
+    height: 189px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 198px 326px;
+    padding: 15px;
+    /* position: absolute; */
+  }
+  
+  .section_one h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .silect__Eriya {
+    margin: 12px auto;
+    text-align: center;
+  }
+  .silect__Eriya select {
+    width: 130px;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 10px 3px;
+    background-color: rgb(203, 196, 196);
+  }
+  .button_1 {
+    width: 412px;
+    margin-right: 7px;
+    background-color: rgb(203, 196, 196);
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .button_2 {
+    width: 130px;
+    margin-right: -5px;
+    border-radius: 9px;
+    background-color: aqua;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .button_a {
+    position: absolute;
+    margin-top: 422px;
+    margin-left: 695px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+  }
+  /* section style end */
+  
+  /* main style start */
+  
+  main {
+    background-color: yellow;
+    padding: 10px;
+  }
+  main p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .main___div {
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
+  .main___div img {
+    width: 100px;
+    height: 100px;
+    margin-left: 152px;
+  }
+  
+  /* main style end */
+  
+  /* about style start  */
+  
+  #about {
+    width: 55%;
+  }
+  #about h2 {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  
+  .img____main {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    margin: 150px auto;
+    position: relative;
+  }
+  .a {
+    width: 50%;
+  }
+  .b {
+    width: 50%;
+  }
+  .c {
+    width: 50%;
+  }
+  .a p {
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .a h3 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: rgb(231, 200, 200);
+  }
+  .b p {
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .b h3 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: rgb(231, 200, 200);
+  }
+  .c p {
+    margin-top: 5px;
+    font-weight: 600;
+  }
+  .c h3 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: rgb(231, 200, 200);
+  }
+  
+  .a a {
+    color: black;
+    font-weight: 700;
+  }
+  .b a {
+    color: black;
+    font-weight: 700;
+  }
+  .c a {
+    color: black;
+    font-weight: 700;
+  }
+  .EenkorTage {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 35px;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 554px;
+    color: black;
+    position: absolute;
+    margin-top: 283px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* about style end  */
+  
+  /* bY eria */
+  
+  blank {
+    display: flex;
+    padding: 15px;
+  }
+  .buy1 {
+    width: 50%;
+  }
+  .buy2 {
+    width: 50%;
+  }
+  .buyChild1 {
+    width: 90%;
+    border: 1px solid rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  .buyChild1 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .buyChild1 span {
+    margin-left: 10px;
+  }
+  
+  .buyChild2 {
+    width: 90%;
+    border: 1px solid rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  .buyChild2 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .buyChild2 span {
+    margin-left: 10px;
+  }
+  .buyChild3 {
+    width: 90%;
+    border: 1px solid rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  .buyChild3 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .buyChild3 span {
+    margin-left: 10px;
+  }
+  
+  .buyChild4 {
+    width: 90%;
+    border: 1px solid rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  .buyChild4 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .buyChild4 span {
+    margin-left: 10px;
+  }
+  .buyChild5 {
+    width: 90%;
+    border: 1px solid rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  .buyChild5 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .buyChild5 span {
+    margin-left: 10px;
+  }
+  .buyChild6 {
+    width: 90%;
+    border: 1px solid rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  .buyChild6 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .buyChild6 span {
+    margin-left: 10px;
+  }
+  .buy2 {
+    margin-left: 40px;
+  }
+  .buy1 {
+    margin-left: 40px;
+  }
+  #button {
+    margin-left: 227px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 12px;
+  }
+  
+  /* sinup eria style start */
+  
+  .sigup {
+    background-color: rgb(203, 180, 223);
+    height: 400px;
+    text-align: center;
+    /* position: relative; */
+  }
+  .h2 {
+    font-size: 3rem;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 372px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  .button {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -52px;
+    border: none;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    width: 130px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* FOOTER STYLE START */
+  
+  footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 350px;
+    padding: 12px;
+    position: relative;
+  }
+  .div01 {
+    font-size: 3rem;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  
+  .div02 ul li {
+    list-style: none;
+    margin: 10px;
+  }
+  .f {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .div02 ul {
+    margin-top: 106px;
+  }
+  .div03 ul li {
+    list-style: none;
+    margin: 10px;
+  }
+  .f {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .div03 ul {
+    margin-top: 106px;
+  }
+  .div04 ul li {
+    list-style: none;
+    margin: 10px;
+  }
+  .f {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .div04 ul {
+    margin-top: 106px;
+  }
+  .h5 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center
